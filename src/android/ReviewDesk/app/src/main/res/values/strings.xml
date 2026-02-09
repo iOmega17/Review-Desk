@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ReviewDesk</string>
+    <string name="accessibility_service_description">Allows remote automation of this device through commands from a server. The service can perform clicks, type text, and navigate through apps.</string>
+    <string name="service_status">Service Status: %s</string>
+    <string name="connection_status">Connection: %s</string>
+    <string name="server_url_label">Server URL:</string>
+    <string name="connect_button">Connect</string>
+    <string name="disconnect_button">Disconnect</string>
+    <string name="default_server_url">http://192.168.1.100:5000/androidHub</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="accessibility_instruction">To use this app, you must enable the Accessibility Service:\n\n1. Go to Settings\n2. Select Accessibility\n3. Find ReviewDesk\n4. Toggle it ON</string>
+</resources>
