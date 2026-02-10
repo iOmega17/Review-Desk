@@ -54,7 +54,6 @@ public class MyAccessibilityService extends AccessibilityService {
         try {
             // Build SignalR hub connection
             hubConnection = HubConnectionBuilder.create(serverUrl)
-                    .withAutomaticReconnect()
                     .build();
 
             // Register handler for receiving commands from server
